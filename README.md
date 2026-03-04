@@ -1,48 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <body>
 
   <h1>🎙️ Voice Agent: LangGraph + LangChain</h1>
 
   <p>
-    Um assistente virtual inteligente que combina o poder da orquestração de grafos com o reconhecimento de voz. 
-    Este projeto utiliza <b>LangGraph</b> para gerenciar fluxos de decisão complexos e <b>SpeechRecognition</b> para uma interface natural.
+    Assistente virtual que integra reconhecimento de voz e orquestração de agentes para execução de tarefas via comandos de áudio.
   </p>
+
+  <div style="background-color: #e3f2fd; border-left: 5px solid #2196f3; padding: 15px; margin: 20px 0;">
+    <strong>🛠️ Estágio Experimental (Versão Inicial)</strong><br>
+    O projeto está em seus primeiros passos de desenvolvimento. Atualmente, o sistema opera com <b>apenas um modelo de linguagem (LLM)</b> configurado.
+  </div>
 
   <hr>
 
-  <h2>🚀 Tecnologias Utilizadas</h2>
+  <h2>🔍 Características Atuais</h2>
   <ul>
-    <li><b>SpeechRecognition:</b> Interface de áudio para texto.</li>
-    <li><b>LangChain:</b> Integração de modelos de linguagem e ferramentas.</li>
-    <li><b>LangGraph:</b> Lógica de agentes com estado e ciclos de decisão.</li>
+    <li><b>Interface:</b> SpeechRecognition para entrada de comandos por voz.</li>
+    <li><b>Lógica:</b> Fluxos estruturados via LangGraph e LangChain.</li>
+    <li><b>Custo:</b> Projeto 100% gratuito.</li>
   </ul>
 
   <hr>
 
-  <h2>⚠️ Observações Importantes</h2>
+  <h2>⚠️ Observações de Desempenho</h2>
   
-  <p align="center">
-    <i>"A inteligência leva tempo."</i>
-  </p>
-
   <ul>
     <li>
-      <b>Velocidade:</b> Por ser uma solução <b>100% gratuita</b> e utilizar processamento robusto de agentes, a resposta pode levar alguns segundos. Não é instantâneo, mas é preciso.
+      <b>Tempo de Resposta:</b> Devido ao processamento do modelo único e à natureza gratuita da infraestrutura, as respostas <b>não são instantâneas</b> e podem levar alguns segundos.
     </li>
     <li>
-      <b>Requisitos:</b> O funcionamento dos agentes depende de <b>chaves de API</b> válidas para os serviços de LLM integrados.
+      <b>Requisito de API:</b> A execução das tarefas pelos agentes requer a configuração prévia de chaves de API.
     </li>
   </ul>
 
   <hr>
 
-  <h2>🛠️ Como Funciona</h2>
+  <h2>🚀 Roadmap Curto Prazo</h2>
   <ol>
-    <li>O usuário fala um comando.</li>
-    <li>O <b>SpeechRecognition</b> transcreve o áudio.</li>
-    <li>O <b>LangGraph</b> orquestra os agentes para decidir a melhor ação.</li>
-    <li>O assistente executa a tarefa e retorna a resposta final.</li>
+    <li>Otimização do tempo de latência na transcrição.</li>
+    <li>Implementação de suporte a múltiplos modelos simultâneos.</li>
+    <li>Refinamento da memória de curto prazo do agente.</li>
   </ol>
 
 </body>
